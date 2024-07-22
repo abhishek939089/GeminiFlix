@@ -9,3 +9,5 @@
 - Use fromik
 - Form Validation
 - useRef Hook
+- Firebase setup
+- Deploying out app to production
