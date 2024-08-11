@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
 import { LOGO, SUPPORTED_LANGUAGES } from "../utils/constants";
-import gptSlice from "../utils/gptSlice";
 import { toggleGPTSearchView } from "../utils/gptSlice";
-import lang from "../utils/langConstants";
 import { changeLanguage } from "../utils/configSlice";
 
 const Header = () => {
