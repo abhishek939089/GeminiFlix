@@ -18,7 +18,7 @@ const links = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer className="bg-gray-900 text-white py-10 w-screen overflow-x-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-8">
           <h3 className="text-lg font-semibold mb-2">
